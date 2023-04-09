@@ -24,8 +24,3 @@ scopes:
   - ctwg
   - toip-ctwg
   scopedir: https://github.com/trustoverip/ctwg # URL of the scope-directory
-versions:
-- vsntag: test # this version MUST only be used for testing the MRG generator
-  mrgfile: mrg-tev2-test.yaml # URL: <scopedir>/<glossarydir>/<mrgfile>
-  termselcrit:
-  - "*@tev2" # import all tev2 terms.

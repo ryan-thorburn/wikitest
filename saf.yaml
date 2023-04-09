@@ -27,5 +27,6 @@ scopes:
 versions:
 - vsntag: mrgtest
   mrgfile: mrg-tev2-test.yaml
+  mrgFile: mrg-tev2-test.yaml
   termselcrit:
   - "*@tev2"

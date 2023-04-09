@@ -20,7 +20,7 @@ scope:
 # This enables tools to find the [SAF](@) of these [scopes](@), and from there all other directories, files etc.
 # that live within them, e.g. to use/import their data.
 #
-scopes:  #
+scopes:
 - scopetags: # definition of (scope) tag(s) that are used within this scope to refer to a specific terminology
   - essiflab
   - essif-lab

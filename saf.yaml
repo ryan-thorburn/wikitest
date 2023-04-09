@@ -25,8 +25,3 @@ scopes:
   - toip-ctwg
   scopedir: https://github.com/trustoverip/ctwg # URL of the scope-directory
 versions:
-- vsntag: mrgtest
-  mrgfile: mrg-tev2-test.yaml
-  mrgFile: mrg-tev2-test.yaml
-  termselcrit:
-  - "*@tev2"

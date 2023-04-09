@@ -15,11 +15,6 @@ scope:
     email: # we split up the email address to reduce the likelihood of the address being harvested for spamming
       id: rieks.joosten
       at: tno.nl
-#
-# The second section contains a mapping between scopetags that are used within the scope, and the associated scopedirs.
-# This enables tools to find the [SAF](@) of these [scopes](@), and from there all other directories, files etc.
-# that live within them, e.g. to use/import their data.
-#
 scopes:
 - scopetags: # definition of (scope) tag(s) that are used within this scope to refer to a specific terminology
   - essiflab
@@ -29,11 +24,6 @@ scopes:
   - ctwg
   - toip-ctwg
   scopedir: https://github.com/trustoverip/ctwg # URL of the scope-directory
-#
-# The third section specifies the versions that are actively maintained by the curators.
-# For each version, the set of terms is selected that constitute the terminology.
-# See the Glossary Generation Tool (GGT) for details about the syntax and semantics.
-#
 versions:
 - vsntag: test # this version MUST only be used for testing the MRG generator
   mrgfile: mrg-tev2-test.yaml # URL: <scopedir>/<glossarydir>/<mrgfile>
